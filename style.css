@@ -1,0 +1,269 @@
+body {
+    background-color: #9F181C;
+}
+header {
+    background:#FFFF ;
+}
+
+/*------------------------------------------------*/
+
+/*barra de navegação*/
+
+.navbarra {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.navbarra a:hover {
+    color: #9F181C;
+}
+
+.nav-link {
+    color: #0e0c0c;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fontebarra {
+    color: black;
+}
+
+.a :hover {
+    color: #9F181C;
+}
+
+/*-------------------------------------------------------*/
+/*tITULO*/
+
+.titlo {
+    font-size: 45px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40PX;
+}
+.titlo2 {
+    font-size: 45px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40PX;
+}
+.titlo3 {
+    font-size: 45px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40PX;
+}
+
+section.slider {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input {
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img {
+    width: 100%;
+}
+
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
+    background-color: #ffffff;
+}
+
+#radio1:checked~.primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
+}
+
+.img-desk {
+    height: 600px;
+    width: 1800px;
+}
+
+.img-mob {
+    height: 600px;
+    width: 1200px;
+    display: none;
+}
+
+
+/*-------------------------------------------------------*/
+
+
+/*CARRROSELLLLLL*/
+
+.cont2 {
+    display: flex;
+    width: 1400px;
+    height: 400px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover {
+    flex: 2;
+    background-color: #710e0e;
+}
+
+/*----------------------------------------------------*/
+/*FOTOS*/
+
+.caixa{
+    margin: 15px;
+    margin-bottom: 20px;
+}
+.tamanho_img{
+    height: 350PX;
+    width: 600PX;
+}
+.foto-text{
+    font-size: 30px;
+}
+.ft1{
+    margin: 20px;
+    color: #ffffff;
+}
+.tabfotos{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.subtit{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imglut{
+    color: rgba(255, 255, 255, 0.082);
+}
+
+.textsobre{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serifs;
+    color:#ffffff ;
+    justify-content: center;
+    text-align: center;
+}
+.textind{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serifs;
+    color:#ffffff ;
+    justify-content: center;
+    text-align: center;
+}
+.cordisp{
+    color: #E4C19C;
+    font-weight: bold;
+    text-align: center;
+}
+.cordisp1{
+    color: #E4C19C;
+    font-weight: bold;
+    text-align: center;
+}
+.boxtext{
+    margin-bottom: 40px;
+}
+
+/*----------------------------------------------------*/
+/*CONTATOS*/
+
+.imgluv{
+    width: 90%;
+}
+.bloco1{
+justify-content: center;
+}
+.textcad{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*FOOTER*/
+
+.foot {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    align-self: center;
+}
+
+.rodape a {
+    color: #0e0c0c;
+    text-align: center;
+    align-self: center;
+}
+.rodape{
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.rodape p a {
+    color: #0e0c0c;
+    font-size: 15px;
+    margin: 5px 15px;
+    align-self: center;
+}
+
+.rodape p a:hover {
+    color: #710e0e;
+    font-weight: bold;
+}
+.rodape a:hover {
+    color: #710e0e;
+    font-weight: bold;
+}
+
+.btnfor a {
+    font-size: 13PX;
+    color: #0e0c0c;
+}
+
+.btnfor a:hover {
+    color: #710e0e;
+    font-weight: bold;
+}
